@@ -1,0 +1,186 @@
+.titulo_tablet {
+  display: none;
+}
+
+.titulo_movil {
+  display: none;
+}
+
+.titulo_normal {
+  display: block;
+}
+
+.desktop_pd_0 {
+  padding: 0;
+}
+
+@media (max-width: 930px) {
+  .box {
+    padding: 2rem 1rem 7rem 1rem;
+    background-position-y: 10rem;
+    background-position-x: -30rem;
+  }
+
+  .titulo_tablet {
+    display: block;
+  }
+
+  .titulo_normal {
+    display: none;
+  }
+
+  .box_item_header h4 {
+    font-size: 10px;
+  }
+
+  .btn_active {
+    font-size: 10px;
+  }
+
+  .btn_idioma {
+    font-size: 10px;
+  }
+
+  .content_idioma {
+    background: #713ddf;
+    width: 56px;
+    border-radius: 25px;
+    margin-top: 9px;
+    margin-left: 1rem;
+  }
+
+  .logo {
+    width: 102px;
+    margin-top: 10px;
+  }
+
+  /*****************************************/
+
+  .contenedor_calculate {
+    padding: 2rem 6rem;
+  }
+
+  .titulo_tablet {
+    margin: 0 auto;
+  }
+
+  .box_input_token {
+    width: 394px;
+    height: 7rem;
+  }
+
+  .btn_calculate {
+    padding: 1px 10px;
+  }
+
+  .box_input_token {
+    margin: 1.6rem auto;
+  }
+
+  .colpaleft {
+    width: 21rem;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  .app_content_respo {
+    width: 34rem;
+    margin: 0 auto;
+  }
+
+  .pd_responsive_tablet {
+    padding: 1rem 5rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .content_idioma {
+    float: right;
+  }
+
+  .box {
+    padding: 0.4rem 1rem 7rem 1rem;
+    background-position-y: 20rem;
+    background-position-x: -75rem;
+  }
+
+  .app_movil_header_item {
+    margin-bottom: 2rem;
+  }
+
+  .app_movil_caja {
+    padding: 2.5px 4rem;
+  }
+
+  .titulo_tablet {
+    display: none;
+  }
+
+  .titulo_movil {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .titulo_normal {
+    display: none;
+  }
+
+  .contenedor_calculate {
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .content_calcultor {
+    display: block;
+  }
+
+  .box_input_token {
+    width: 100%;
+    height: auto;
+    background-image: url("../images/rectangle_movil.png");
+  }
+
+  .btn_calculate {
+    padding: 8px 10px;
+    margin-top: 1rem;
+  }
+
+  .input_style {
+    left: 35px;
+  }
+
+  .content_card {
+    width: 14rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+  }
+
+  .card_blr {
+    margin-bottom: 0.5rem;
+  }
+
+  .app_content_respo {
+    width: 100%;
+  }
+
+  .pd_responsive_tablet {
+    padding: 1rem;
+  }
+
+  .card_footer_result {
+    margin-bottom: 3px;
+  }
+
+  .movil_hide {
+    display: none;
+  }
+
+  .content_results {
+    width: 12rem;
+    margin: 0 auto;
+  }
+
+  .w20rem {
+    width: 20rem;
+  }
+}
