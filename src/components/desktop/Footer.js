@@ -3,6 +3,15 @@ import React from 'react'
 export default function Footer() {
     return (
         <div className="row mt-4  app_content_respo">
+            <div className="col-12">
+            <div className="desktop_hide ">
+                <p className="text-white">If you stake for 90 days you receive</p>
+                <div className="card_footer_result mr-4px">
+                    <h5 className="text-white">BULLBNB</h5>
+                    <p className="text-white">1,000,000</p>
+                </div>
+            </div>
+            </div>
             <div className="col-md-6 col-12 col-lg">
                 <div className="content_results text-center">
                     <h4 className="title_footer_blr text-white">DAILY</h4>

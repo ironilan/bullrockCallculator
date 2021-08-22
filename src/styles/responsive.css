@@ -2,7 +2,15 @@
   display: none;
 }
 
+.movil_hide {
+  padding: 0;
+}
+
 .titulo_movil {
+  display: none;
+}
+
+.desktop_hide {
   display: none;
 }
 
@@ -182,5 +190,12 @@
 
   .w20rem {
     width: 20rem;
+  }
+
+  .desktop_hide {
+    display: block;
+    width: 10rem;
+    margin: 1rem auto;
+    text-align: center;
   }
 }
