@@ -1,6 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-export default function Cuerpo() {
+export default function Cuerpo({priceBNB, priceBLR, dollarBNB, tokenBNB, dollarBLR, tokenBLR, handleClick}) {
+    const [data, setData] = useState(null)
+
+    const handleInputChange = (event) => {       
+
+        setData({
+            ...data,
+            [event.target.name] : event.target.value
+        })
+    }
+
+    //console.log(data);
+
     return (
         <div className="row">
             <div className="col-lg-6 col-12">
@@ -13,9 +25,9 @@ export default function Cuerpo() {
                         <div className="content_calcultor ">
                             <div className="input_token">
                                 <img src="https://cdn.animaapp.com/projects/611fa224948c08a7cf31c815/releases/611fa28199abbbe76c9af217/img/base-1@2x.svg" alt="" />
-                                <input className="input_style" placeholder="10000000" type="number"  />
+                                <input className="input_style" placeholder="10000000" type="number" name="tokens"  onChange={handleInputChange} />
                             </div>
-                            <button className="text-white text-uppercase btn_calculate">Calculate</button>
+                            <button className="text-white text-uppercase btn_calculate" data-token={data?.tokens}  onClick={handleClick}>Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -27,19 +39,19 @@ export default function Cuerpo() {
                         <div className="col-lg  col-md col-12 pdcol">
                             <div className="card_blr">
                                 <h5 className="text-white">PRICE</h5>
-                                <p className="text-white">≈ 0.00003</p>
+                                <p className="text-white">≈ {priceBLR}</p>
                             </div>
                         </div>
                         <div className="col-lg  col-md col-12 pdcol">
                             <div className="card_blr">
                                 <h5 className="text-white">DOLLARS</h5>
-                                <p className="text-white">300,000</p>
+                                <p className="text-white">{dollarBLR}</p>
                             </div>
                         </div>
                         <div className="col-lg  col-md col-12 pdcol">
                             <div className="card_blr">
                                 <h5 className="text-white">TOKENS</h5>
-                                <p className="text-white">10,000,000,000</p>
+                                <p className="text-white">{tokenBLR}</p>
                             </div>
                         </div>
                     </div>
@@ -50,19 +62,19 @@ export default function Cuerpo() {
                         <div className="col-lg  col-md col-12 pdcol">
                             <div className="card_blr">
                                 <h5 className="text-white">PRICE</h5>
-                                <p className="text-white">≈ 0.3</p>
+                                <p className="text-white">≈ {priceBNB}</p>
                             </div>
                         </div>
                         <div className="col-lg  col-md col-12 pdcol">
                             <div className="card_blr">
                                 <h5 className="text-white">TOKENS</h5>
-                                <p className="text-white">10,000,000</p>
+                                <p className="text-white">{tokenBNB}</p>
                             </div>
                         </div>
                         <div className="col-lg  col-md col-12 pdcol">
                             <div className="card_blr">
                                 <h5 className="text-white">DOLLARS</h5>
-                                <p className="text-white">30,000</p>
+                                <p className="text-white">{dollarBNB}</p>
                             </div>
                         </div>
                     </div>

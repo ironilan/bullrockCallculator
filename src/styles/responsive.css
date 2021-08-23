@@ -154,7 +154,7 @@
   }
 
   .input_style {
-    left: 35px;
+    left: 15px;
   }
 
   .content_card {
@@ -197,5 +197,10 @@
     width: 10rem;
     margin: 1rem auto;
     text-align: center;
+  }
+
+  .input_token {
+    width: 200px;
+    margin: 0 auto;
   }
 }

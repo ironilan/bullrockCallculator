@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Footer() {
+export default function Footer({bullBNB, receive, retain, m1, m2, m3, dayli, receiveQuaterly, accumulated, Total}) {
     return (
         <div className="row mt-4  app_content_respo">
             <div className="col-12">
@@ -8,7 +8,7 @@ export default function Footer() {
                 <p className="text-white">If you stake for 90 days you receive</p>
                 <div className="card_footer_result mr-4px">
                     <h5 className="text-white">BULLBNB</h5>
-                    <p className="text-white">1,000,000</p>
+                    <p className="text-white">{bullBNB}</p>
                 </div>
             </div>
             </div>
@@ -19,19 +19,19 @@ export default function Footer() {
                         <div className=" movil_hide col ">
                             <div className="card_footer_result mr-4px">
                                 <h5 className="text-white">BULLBNB</h5>
-                                <p className="text-white">1,000,000</p>
+                                <p className="text-white">{bullBNB}</p>
                             </div>
                         </div>
                         <div className="desktop_pd_0 col-md col-lg col-6 ">
                             <div className="card_footer_result mr-4px">
                                 <h5 className="text-white">RECEIVE</h5>
-                                <p className="text-white">5,555.55</p>
+                                <p className="text-white">{receive}</p>
                             </div>
                         </div>
                         <div className="desktop_pd_0 col-md col-lg col-6 ">
                             <div className="card_footer_result mr-4px">
                                 <h5 className="text-white">I RETAIN</h5>
-                                <p className="text-white">5,555.55</p>
+                                <p className="text-white">{retain}</p>
                             </div>
                         </div>
                     </div>
@@ -43,15 +43,15 @@ export default function Footer() {
                     <div className="row">
                         <div className="card_footer_result col mr-4px">
                             <h5 className="text-white">1</h5>
-                            <p className="text-white">333,333.3</p>
+                            <p className="text-white">{m1}</p>
                         </div>
                         <div className="card_footer_result col mr-4px">
                             <h5 className="text-white">2</h5>
-                            <p className="text-white">1,000,000</p>
+                            <p className="text-white">{m2}</p>
                         </div>
                         <div className="card_footer_result col mr-4px">
                             <h5 className="text-white">3</h5>
-                            <p className="text-white">1,000,000</p>
+                            <p className="text-white">{m3}</p>
                         </div>
                     </div>
                 </div>
@@ -63,25 +63,25 @@ export default function Footer() {
                         <div className=" col-md col-lg col-6 desktop_pd_0 ">
                             <div className="card_footer_result mr-4px">
                                 <h5 className="text-white">DAYLI</h5>
-                                <p className="text-white">11,111.11</p>
+                                <p className="text-white">{dayli}</p>
                             </div>
                         </div>
                         <div className=" col-md col-lg col-6 desktop_pd_0  ">
                             <div className="card_footer_result mr-4px">
                                 <h5 className="text-white fs-10px mb_5px">RECEIVE <br /> QUATERLY</h5>
-                                <p className="text-white">1,000,000</p>
+                                <p className="text-white">{receiveQuaterly}</p>
                             </div>
                         </div>
                         <div className=" col-md col-lg col-6 desktop_pd_0  ">
                             <div className="card_footer_result  mr-4px">
                                 <h5 className="text-white fs-10px mb_5px">ACCUMULATED <br /> QATERLY</h5>
-                                <p className="text-white">1,000,000</p>
+                                <p className="text-white">{accumulated}</p>
                             </div>
                         </div>
                         <div className=" col-md col-lg col-6 desktop_pd_0  ">
                             <div className="card_footer_result  mr-4px">
                                 <h5 className="text-white fs-10px mb_5px">TOTAL APT <br/> 100%</h5>
-                                <p className="text-white">1,000,000</p>
+                                <p className="text-white">{Total}</p>
                             </div>
                         </div>
                         
