@@ -7,19 +7,21 @@ body {
 .box {
   background: #001433;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   padding: 2rem 6rem;
   border-radius: 20px;
-  background-image: url("https://cdn.animaapp.com/projects/611fa224948c08a7cf31c815/releases/611fa28199abbbe76c9af217/img/mask-group-1@1x.svg");
+  background-image: url("../images/bg_brl.png");
   padding-bottom: 11rem;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 35px;
-  background-position-x: -27px;
+  background-size: 100% 100%;
+  background-position-y: 10px;
+  background-position-x: 0;
 }
 
 .content_idioma {
   background: #713ddf;
-  width: 75px;
+  width: 74px;
+  height: 37px;
   border-radius: 25px;
   margin-top: 9px;
 }
@@ -69,18 +71,26 @@ body {
 
 /***************************************/
 .box_input_token {
-  text-align: center;
+  align-items: center;
+  background-image: url("https://stake.bullrockswap.finance/img/rectangle-5-17@2x.png");
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 113px;
+  /* padding: 17px 27px; */
+
+  /* width: 394px; */
 }
 
 .box_input_token {
   background-color: #545965;
   background-repeat: no-repeat;
-  background-size: cover;
+
   /* padding-bottom: 34px; */
-  height: 8rem;
+  /* height: 8rem; */
   margin-top: 1.6rem;
   padding: 1.68rem 2rem;
-  background-image: url("../images/rectangle.png");
 }
 
 .box_input_token h4 {
@@ -90,7 +100,16 @@ body {
 }
 
 .input_token {
+  background-image: url("https://stake.bullrockswap.finance/img/base-3@2x.png");
+  background-repeat: no-repeat;
+  align-items: flex-end;
+  background-size: 100% 100%;
   position: relative;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  min-width: 197px;
+  padding: 5px 31px;
 }
 
 .input_style {

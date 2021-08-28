@@ -22,11 +22,22 @@
   padding: 0;
 }
 
+@media (max-width: 1200px) {
+  .box {
+    background-image: url("../images/bg_blr_750.png");
+    padding: 2rem 1rem 12rem 1rem;
+    background-position-y: 0;
+    background-position-x: 0;
+    background-size: 100% 100%;
+  }
+}
+
 @media (max-width: 930px) {
   .box {
-    padding: 2rem 1rem 7rem 1rem;
-    background-position-y: 10rem;
-    background-position-x: -30rem;
+    background-image: url("../images/bg_blr_750.png");
+    padding: 2rem 1rem 10rem 1rem;
+    background-position-y: 10px;
+    background-position-x: 0;
   }
 
   .titulo_tablet {
@@ -52,6 +63,7 @@
   .content_idioma {
     background: #713ddf;
     width: 56px;
+    height: 28px;
     border-radius: 25px;
     margin-top: 9px;
     margin-left: 1rem;
@@ -107,9 +119,10 @@
   }
 
   .box {
-    padding: 0.4rem 1rem 7rem 1rem;
-    background-position-y: 20rem;
-    background-position-x: -75rem;
+    background-image: url("../images/bg_blr_320.png");
+    padding: 0.4rem 1rem 14rem 1rem;
+    background-position-y: 10px;
+    background-position-x: 0;
   }
 
   .app_movil_header_item {

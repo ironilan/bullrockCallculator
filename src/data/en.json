@@ -1,0 +1,43 @@
+{
+    "header": [
+        {
+            "titulo1": "TOTAL BLRS AT 20%",
+            "titulo2": "TOTAL BULLBNB AT 20%",
+            "titulo3": "TOTAL STAKE BLRS"
+        }
+        
+    ],
+    "body": [
+        {            
+            "titulo1": "BULLROCK",           
+            "subtitulo1": "PRICE",           
+            "subtitulo2": "DOLLARS",            
+            "subtitulo3": "TOKENS",           
+            "titulo2": "BULLBNB",           
+            "subtitulo4": "PRICE",            
+            "subtitulo5": "DOLLARS", 
+            "subtitulo6": "TOKENS", 
+            "titulo_img_desktop": "https://cdn.animaapp.com/projects/611fa224948c08a7cf31c815/releases/611fa28199abbbe76c9af217/img/calculate-blrs-90-day-stake-profit@2x.svg",
+            "titulo_img_tablet": "https://cdn.animaapp.com/projects/611fa224948c08a7cf31c815/releases/611fa28199abbbe76c9af217/img/calculate-blrs-90-day-stake-profit-1@2x.svg",
+            "titulo_img_movil": "https://cdn.animaapp.com/projects/611fa224948c08a7cf31c815/releases/611fa28199abbbe76c9af217/img/calculate-blrs-90-day-stake-profit-2@2x.svg",
+            "titulo_calc": "TOKEN BLRS",
+            "btn":"CALCULATE"
+        }
+    ],
+    "footer": [
+        {
+            
+            "titulo_1": "DAYLY",            
+            "titulo_2": "MONTHS",            
+            "caja_1": "BULLBNB",            
+            "caja_2": "RECEIVE",            
+            "caja_3": "I RETAIN",            
+            "caja_7": "DAYLI",            
+            "caja_8": "RECEIVE QUATERLY",            
+            "caja_9": "ACCUMULATED QATERLY",
+            "caja_10": "TOTAL APT 100%", 
+            "text_for_movil": "If you stake for 90 days you receive",           
+            "texto_footer": "The last payment of 50% will be delivered in 3 equal parts every 15 days, and thus not affect the value of BullBNB."
+        }
+    ]
+}
